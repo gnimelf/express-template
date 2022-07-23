@@ -18,11 +18,21 @@
     <main>
       <section class="main-group">
         <section class="app-name">P-Listify</section>
-        <button class="add-song-bt">Add Song</button>
+        <section class="add-song-section">
+            <form class="add-song" method="post">
+                <label for="song">Song</label>
+                <input id="song-name" class="song-input" name="song" type="text">
+                <label for="artist">Artist</label>
+                <input id="artist-name" class="song-input" name="artist" type="text">
+                <button class="add-song-bt">Add Song</button>
+            </form>
+        </section>
+        
       </section>
     </main>
     <footer>
-      <p>&copy; 2022 Justin Fleming</p>
+      <p>&copy;</p>
     </footer>
+    <script src="./scripts/index.js"></script>
   </body>
 </html>
